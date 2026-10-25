@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Freecierge Co. — The human concierge studio for the AI era</title>
+<meta name="description" content="Freecierge Co. helps founders and brands move faster with AI-powered concierge sprints.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.css">
+<link rel="stylesheet" href="https://unpkg.com/lenis@1.1.20/dist/lenis.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="fmark" viewBox="470 285 460 440">
+      <path class="fm-top" d="M485 385Q485 298 580 298L920 298L880 355Q850 385 815 385L650 385Q610 385 585 430L485 525Z"/>
+      <path class="fm-mid" d="M605 450Q625 405 660 405L833 405L775 465Q765 478 745 478L572 478Z"/>
+      <path class="fm-bot" d="M485 575Q485 500 560 498L748 498Q745 520 725 550Q705 575 670 575L592 575L592 625Q592 640 578 652L505 713L488 714Q484 710 484 700Z"/>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- PAGE LOAD GRID WIPE -->
+<div class="load-grid" id="loadGrid">
+  <div class="load-center"><svg class="load-mark" viewBox="470 285 460 440">
+      <path class="fm-top" d="M485 385Q485 298 580 298L920 298L880 355Q850 385 815 385L650 385Q610 385 585 430L485 525Z"/>
+      <path class="fm-mid" d="M605 450Q625 405 660 405L833 405L775 465Q765 478 745 478L572 478Z"/>
+      <path class="fm-bot" d="M485 575Q485 500 560 498L748 498Q745 520 725 550Q705 575 670 575L592 575L592 625Q592 640 578 652L505 713L488 714Q484 710 484 700Z"/>
+    </svg><span class="load-count"><b id="count">0</b>%</span></div>
+  <div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div>
+  <div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div>
+  <div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div><div class="load-grid_item"></div>
+</div>
+
+<div class="cursor" id="cursor"><p></p></div>
+
+<div class="page_wrapper">
+
+<!-- ANNOUNCEMENT BAR -->
+<a href="brand-sprint.html" class="meta-banner"><span class="new">New</span><span>Your brand, inside every AI tool your team uses. <u>Learn more.</u></span></a>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <a href="index.html" class="nav-logo"><svg><use href="#fmark"/></svg><span>Freecierge</span></a>
+  <button class="menu-button" aria-label="Menu"><span class="menu-line"></span><span class="menu-line"></span></button>
+  <nav class="menu" id="menu">
+    <div class="menu-dropdown_wrapper">
+      <a href="brand-sprint.html" class="navigation-link" data-button-animate-chars>Sprints</a>
+      <div class="menu-dropdown"><a href="brand-sprint.html">Brand Sprint</a><a href="product-sprint.html">Product Sprint</a><a href="apply.html">Venture</a></div>
+    </div>
+    <a href="work.html" class="navigation-link" data-button-animate-chars>Work</a>
+    <div class="menu-dropdown_wrapper">
+      <a href="index.html#voices" class="navigation-link" data-button-animate-chars>Learn</a>
+      <div class="menu-dropdown"><a href="index.html#voices">Thoughts</a><a href="index.html#footer">Supply</a></div>
+    </div>
+    <a href="contact.html" class="btn sm"><span data-button-animate-chars>Contact</span></a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- HERO (pinned) -->
+<section class="hero" id="hero">
+  <div class="hero-pin">
+    <div class="hero-bg"></div>
+    <div class="hero-stage" aria-hidden="true">
+      <div class="hero-art" data-3d-hover-target data-max-rotate="14">
+        <svg class="hl h1"><use href="#fmark"/></svg><svg class="hl h2"><use href="#fmark"/></svg><svg class="hl h3"><use href="#fmark"/></svg>
+        <svg class="hl h4"><use href="#fmark"/></svg><svg class="hl h5"><use href="#fmark"/></svg><svg class="hl h6"><use href="#fmark"/></svg>
+      </div>
+    </div>
+    <h1 class="hero-title" animate-txt="words-scale-in">The <mark>human</mark> concierge studio for the <mark>AI</mark> era.</h1>
+    <div class="hero-scroll"><span></span>Scroll</div>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="section intro">
+  <div class="split">
+    <div class="intro-copy">
+      <h2 class="scrub-words">We help humans solve creative problems with AI.</h2>
+      <p animate-txt="lines-fade-in">Freecierge partners with startups to transform vision into reality. Combining deep creative and AI expertise to build faster, smarter, and with more impact.</p>
+      <a href="brand-sprint.html" class="btn" data-cursor="Let's go"><span data-button-animate-chars>Learn more</span></a>
+    </div>
+    <div class="intro-visual">
+      <div class="panel">
+        <div class="logo-boxes" aria-hidden="true"><div class="lb b1"><svg><use href="#fmark"/></svg></div><div class="lb b2"><svg><use href="#fmark"/></svg></div><div class="lb b3"><svg><use href="#fmark"/></svg></div><div class="lb b4"><svg><use href="#fmark"/></svg></div><div class="lb b5"><svg><use href="#fmark"/></svg></div><div class="lb b6"><svg><use href="#fmark"/></svg></div></div>
+        <div class="tilt-card" data-3d-hover-target data-max-rotate="10">
+        <div class="feed" aria-hidden="true">
+          <div class="feed-col fc-a"><div class="feed-track">
+            <span class="chip y"><i>✓</i>Brand strategy</span><span class="chip"><i>✓</i>Logo &amp; identity</span><span class="chip o">Pitch deck</span><span class="chip"><i>✓</i>Website build</span><span class="chip y"><i>✓</i>Launch plan</span><span class="chip o">Social kit</span>
+            <span class="chip y"><i>✓</i>Brand strategy</span><span class="chip"><i>✓</i>Logo &amp; identity</span><span class="chip o">Pitch deck</span><span class="chip"><i>✓</i>Website build</span><span class="chip y"><i>✓</i>Launch plan</span><span class="chip o">Social kit</span>
+          </div></div>
+          <div class="feed-col fc-b"><div class="feed-track">
+            <span class="chip"><i>✓</i>AI workflows</span><span class="chip y"><i>✓</i>Prototype</span><span class="chip o">iOS &amp; web</span><span class="chip"><i>✓</i>User testing</span><span class="chip y"><i>✓</i>Concierge</span><span class="chip o">Growth plan</span>
+            <span class="chip"><i>✓</i>AI workflows</span><span class="chip y"><i>✓</i>Prototype</span><span class="chip o">iOS &amp; web</span><span class="chip"><i>✓</i>User testing</span><span class="chip y"><i>✓</i>Concierge</span><span class="chip o">Growth plan</span>
+          </div></div>
+        </div>
+          <div class="image-flip_block">
+            <div class="image-flip_text-wrapper"><span>Brand</span><span>Product</span><span>AI</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT -->
+<section class="section statement">
+  <h2 class="scrub-words big">A new kind of <em>model</em> built to <em>accelerate.</em></h2>
+  <div class="cells">
+    <div class="cell"><h3 animate-txt="words-scale-in">Operated like founders</h3><p animate-txt="lines-fade-in">We operate like founders because that's what the moment requires. Experiment-led discovery that moves from hypothesis to revenue without the bureaucracy or the bloat.</p></div>
+    <div class="cell"><h3 animate-txt="words-scale-in">Built to scale</h3><p animate-txt="lines-fade-in">We're built differently. Not an agency that hands you deliverables or a consultancy that gives you frameworks. Built as an AI-forward studio, we build, ship, and scale with you.</p></div>
+    <div class="cell"><h3 animate-txt="words-scale-in">Accelerated with AI</h3><p animate-txt="lines-fade-in">We've built a community where founders and business leaders get more than ideas: you get practical, AI-powered resources that help you work faster, smarter, and with more confidence.</p></div>
+  </div>
+</section>
+
+<!-- SPRINTS (sticky stack) -->
+<section class="sprints" id="sprints">
+  <article class="sprint s-yellow" data-sprint>
+    <div class="sprint-copy">
+      <h3 class="sp-label" animate-txt="words-scale-in">Brand Sprint</h3>
+      <div>
+        <h2 animate-txt="words-scale-in">Launch a project crafted for freedom.</h2>
+        <ul class="rows"><li>Brand Strategy</li><li>AI Powered Brand Identity Guidelines and Assets</li><li>Web Design and Development</li></ul>
+        <a href="brand-sprint.html" class="btn dark" data-cursor="Brand Sprint"><span data-button-animate-chars>Learn more</span></a>
+      </div>
+    </div>
+    <div class="sprint-visual">
+      <div class="glyph">Aa</div>
+      <div class="sel" data-3d-hover-target data-max-rotate="12"><i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i><svg><use href="#fmark"/></svg></div>
+      <div class="device tablet" data-3d-hover-target data-max-rotate="8">
+        <div class="screen"><b>Tuned to our<br>frequency</b><div class="spectrum"></div><div class="dock"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+      <div class="ball"></div>
+    </div>
+  </article>
+
+  <article class="sprint s-light" data-sprint>
+    <div class="sprint-copy">
+      <h3 class="sp-label" animate-txt="words-scale-in">Product Sprint</h3>
+      <div>
+        <h2 animate-txt="words-scale-in">Launch an AI powered product.</h2>
+        <ul class="rows"><li>Product Strategy</li><li>Rapid prototype &amp; product validation</li><li>Web and iOS App Development</li></ul>
+        <a href="product-sprint.html" class="btn dark" data-cursor="Product Sprint"><span data-button-animate-chars>Learn more</span></a>
+      </div>
+    </div>
+    <div class="sprint-visual">
+      <div class="knot" data-3d-hover-target data-max-rotate="14"></div>
+      <div class="device phone" data-3d-hover-target data-max-rotate="8">
+        <div class="screen"><small>freecierge</small><b>The future of work is automated</b><div class="bars"><i></i><i></i><i></i></div></div>
+      </div>
+      <div class="sel alt" data-3d-hover-target data-max-rotate="12"><i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i><div class="checker"><svg><use href="#fmark"/></svg></div></div>
+    </div>
+  </article>
+
+  <article class="sprint s-ink" data-sprint>
+    <div class="sprint-copy">
+      <h3 class="sp-label" animate-txt="words-scale-in">Venture</h3>
+      <div>
+        <h2 animate-txt="words-scale-in">We partner to create AI powered startups.</h2>
+        <ul class="rows"><li>Creative Venture Capital</li><li>Embedded Team</li><li>Network Driven Opportunities</li></ul>
+        <a href="apply.html" class="btn" data-cursor="Apply now"><span data-button-animate-chars>Apply</span></a>
+      </div>
+    </div>
+    <div class="sprint-visual">
+      <div class="collage"><i></i><i></i><i></i><i></i></div>
+      <div class="device tablet" data-3d-hover-target data-max-rotate="8">
+        <div class="screen"><small>Feed</small><div class="tiles"><i></i><i></i><i></i><i></i></div><div class="dock"><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      </div>
+      <div class="sel alt2" data-3d-hover-target data-max-rotate="12"><i class="h tl"></i><i class="h tr"></i><i class="h bl"></i><i class="h br"></i><svg><use href="#fmark"/></svg></div>
+      <div class="appicon"><svg><use href="#fmark"/></svg></div>
+    </div>
+  </article>
+</section>
+
+<!-- WORK LISTING -->
+<section class="section work" id="work" data-follower-wrap>
+  <div class="sec-head"><span class="tag">Selected work</span></div>
+  <div class="work-list" data-follower-collection><a href="https://www.elementdesign.info/" target="_blank" rel="noopener noreferrer" class="work-row" data-follower-item data-directional-hover-item data-cursor="Visit Element Design App"><span class="wr-tile" data-directional-hover-tile></span><span class="wr-logo logo-img"><img src="https://www.elementdesign.info/brand/logo-diamond.png" alt="Element Design logo" loading="lazy" decoding="async"><span>Element Design <b>App</b></span></span><span class="wr-gap"></span><span class="wr-meta"><b>Web App</b><b>View more &#8599;</b></span><div class="wr-visual" data-follower-visual hidden><div class="vis v3"><img src="https://www.elementdesign.info/brand/logo-diamond.png" alt=""></div></div></a><a href="https://wepageed.vercel.app/" target="_blank" rel="noopener noreferrer" class="work-row" data-follower-item data-directional-hover-item data-cursor="Visit Element Design Website"><span class="wr-tile" data-directional-hover-tile></span><span class="wr-logo logo-img"><img src="https://wepageed.vercel.app/logo.png" alt="Element Design logo" loading="lazy" decoding="async"><span>Element Design <b>Website</b></span></span><span class="wr-gap"></span><span class="wr-meta"><b>Website</b><b>View more &#8599;</b></span><div class="wr-visual" data-follower-visual hidden><div class="vis v2"><img src="https://wepageed.vercel.app/logo.png" alt=""></div></div></a><a href="work.html" class="work-row" data-follower-item data-directional-hover-item><span class="wr-tile" data-directional-hover-tile></span><span class="wr-logo logo-d">All Work</span><span class="wr-gap"></span><span class="wr-meta"><b>View Work &#8599;</b></span><div class="wr-visual" data-follower-visual hidden><div class="vis v4"><svg><use href="#fmark"/></svg></div></div></a></div>
+  <div class="follower" data-follower-cursor><div class="follower-inner" data-follower-cursor-inner></div></div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="section voices" id="voices">
+  <div class="v-head">
+    <span class="tag" animate-txt="words-scale-in">Testimonial</span>
+    <h2 animate-txt="words-scale-in">When visionary brands need their story to resonate, they call us.</h2>
+    <p animate-txt="lines-fade-in">From fast-moving startups to industry leaders, we've helped founders and ambitious leaders create brands and products that resonate, and drive real results.</p>
+    <a href="work.html" class="btn dark"><span data-button-animate-chars>Learn more</span></a>
+  </div>
+  <div class="tst-slider_component">
+    <div class="swiper is-testimonial" data-cursor="Click and Drag">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><article class="chat"><h5>Ruben</h5><div class="bub in">You guys are the real deal. I'm still amazed we went from idea to product in market doing over 40k in MRR in 90 days. 🚀</div><h5 class="from">Freecierge</h5><div class="bub out">This is what it's all about.</div><div class="bub out">Turning big dreams into even bigger realities.</div><cite><i>R</i><span>[ Ruben Hassid ]</span><em>Founder of EasyGen</em></cite></article></div>
+        <div class="swiper-slide"><article class="chat"><h5>Devin</h5><div class="bub in">I can't speak highly enough. The team worked to deeply understand the mission, the vision, the product — and everything. It was transformative for the brand.</div><h5 class="from">Freecierge</h5><div class="bub out">This is the kind of stuff that keeps us going.</div><cite><i>D</i><span>[ Devin Hieb ]</span><em>CEO of Clove &amp; Twine</em></cite></article></div>
+        <div class="swiper-slide"><article class="chat"><h5>Grant</h5><div class="bub in">We broke 19k in our first week post-launch. So stoked to see where we go from here!</div><h5 class="from">Freecierge</h5><div class="bub out">We're just getting started.</div><cite><i>G</i><span>[ Grant Hushek ]</span><em>Founder of GrantBot</em></cite></article></div>
+        <div class="swiper-slide"><article class="chat"><h5>Ryan</h5><div class="bub in">Our business was a complex soup that was almost indecipherable to everyone else. You made it clear as day and compelling — exactly how we wanted to be presented.</div><h5 class="from">Freecierge</h5><div class="bub out">Dude. That means the world.</div><div class="bub out">This is why we exist!</div><cite><i>R</i><span>[ Ryan Hanley ]</span><em>Founder of Equilibrium</em></cite></article></div>
+        <div class="swiper-slide"><article class="chat"><h5>Heather</h5><div class="bub in">I came to you with a clear vision of what I wanted to build. You translated that into a fully realized experience. You nailed it!</div><h5 class="from">Freecierge</h5><div class="bub out">Thank you — we loved building it with you.</div><cite><i>H</i><span>[ Heather Jerrehian ]</span><em>CEO &amp; Founder of H22</em></cite></article></div>
+      </div>
+    </div>
+    <div class="swiper-controls">
+      <button class="swiper-prev" aria-label="Previous">←</button>
+      <div class="swiper-drag-wrapper"><div class="swiper-drag"></div></div>
+      <button class="swiper-next" aria-label="Next">→</button>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="contact" data-trail="wrapper">
+  <div class="cta-bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="trail-items" aria-hidden="true">
+    <div class="trail-item t-a" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-b" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-c" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-d" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-a" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-c" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-b" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-d" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-a" data-trail="item"><svg><use href="#fmark"/></svg></div>
+    <div class="trail-item t-b" data-trail="item"><svg><use href="#fmark"/></svg></div>
+  </div>
+  <div class="cta-in">
+    <span class="tag" animate-txt="words-scale-in">Work with us</span>
+    <h2 animate-txt="words-scale-in">Find your freedom.</h2>
+    <p animate-txt="lines-fade-in">We deliver in weeks, not months. You work directly with experts, not layers of junior staff. We blend world-class design with AI expertise to build brands and products that don't just exist — they resonate.</p>
+    <a href="contact.html" class="btn" data-cursor="Say hello"><span data-button-animate-chars>Book a sprint</span></a>
+  </div>
+</section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer" id="footer">
+  <div class="footer_container">
+    <div class="f-grid">
+      <div class="f-col"><h6>[ Studio ]</h6><a href="brand-sprint.html" data-button-animate-chars>Brand Sprint</a><a href="product-sprint.html" data-button-animate-chars>Product Sprint</a></div>
+      <div class="f-col"><h6>[ AI ]</h6><a href="apply.html" data-button-animate-chars>AI Upskill</a><a href="work.html" data-button-animate-chars>Labs</a></div>
+      <div class="f-col"><h6>[ Learn ]</h6><a href="index.html#voices" data-button-animate-chars>Thoughts</a><a href="index.html#footer" data-button-animate-chars>Supply</a></div>
+      <form class="f-sub" data-subscribe novalidate>
+        <h6>[ Subscribe ]</h6>
+        <input type="email" name="email" placeholder="Email Address" autocomplete="email" required>
+        <button class="btn" type="submit"><span data-button-animate-chars>Subscribe</span></button>
+      </form>
+    </div>
+    <div class="f-row">
+      <div class="ai-summary_wrapper">
+        <svg class="f-mark"><use href="#fmark"/></svg>
+        <div><h6>Get an AI summary of this page</h6>
+          <div class="ai-links"><a class="ai-info-button" data-ai-provider="chatgpt" title="ChatGPT">GPT</a><a class="ai-info-button" data-ai-provider="claude" title="Claude">CL</a><a class="ai-info-button" data-ai-provider="perplexity" title="Perplexity">PX</a></div></div>
+      </div>
+      <div class="f-legal">© <span data-get-year>2025</span> Freecierge Co. | <a href="privacy-policy.html">Privacy Policy</a> | <a href="sitemap.html">Sitemap</a></div>
+    </div>
+  </div>
+  <div class="footer-logo" id="footerLogo" aria-hidden="true"><span>F</span><span>r</span><span>e</span><span>e</span><span>c</span><span>i</span><span>e</span><span>r</span><span>g</span><span>e</span></div>
+</footer>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.20/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8.4.7/swiper-bundle.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
